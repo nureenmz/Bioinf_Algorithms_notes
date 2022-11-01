@@ -1,0 +1,62 @@
+########################################
+# Program: water
+# Rundate: Thu  3 Feb 2022 13:54:00
+# Commandline: water
+#    [-asequence] myseq2.fasta
+#    [-bsequence] myseq.fasta
+#    -outfile myseq
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: myseq
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: myseq2
+# 2: myseq
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 312
+# Identity:     302/312 (96.8%)
+# Similarity:   302/312 (96.8%)
+# Gaps:           9/312 ( 2.9%)
+# Score: 1492.0
+# 
+#
+#=======================================
+
+myseq2            98 gctgccgggacgggtccaagatggacggccgctcaggttctgcttttacc    147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+myseq              1 gctgccgggacgggtccaagatggacggccgctcaggttctgcttttacc     50
+
+myseq2           148 tgcggcccagagccccattcattgccccggtgctgagcggcgccgcgagt    197
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+myseq             51 tgcggcccagagccccattcattgccccggtgctgagcggcgccgcgagt    100
+
+myseq2           198 cggcccgaggcctccggggactgccgtgccgggcgggagaccgccatggc    247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+myseq            101 cggcccgaggcctccggggactgccgtgccgggcgggagaccgccatggc    150
+
+myseq2           248 gaccctggaaaagctgatgaaggccttcgagtccctcaagtccttc----    293
+                     ||||||||||||||||||||||||||||||||||||||||||||||    
+myseq            151 gaccctggaaaagctgatgaaggccttcgagtccctcaagtccttccagc    200
+
+myseq2           294 -----cagcagcagcagcagcagcagcagcagcagcagcagcagcagcag    338
+                          |||||||||||||||||||||||||||||||||||||||||||||
+myseq            201 agcagcagcagcagcagcagcagcagcagcagcagcagcagcagcagcag    250
+
+myseq2           339 cagcagcagcaacagccgccgccgccgccgccgccgccgccgcctcctca    388
+                     ||||||||||||||||||||.|||||||||||||||||||||||||||||
+myseq            251 cagcagcagcaacagccgccaccgccgccgccgccgccgccgcctcctca    300
+
+myseq2           389 gcttcctcagcc    400
+                     ||||||||||||
+myseq            301 gcttcctcagcc    312
+
+
+#---------------------------------------
+#---------------------------------------

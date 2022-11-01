@@ -1,0 +1,38 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Feb 2022 05:48:38
+# Commandline: water
+#    -gapopen 10
+#    -gapextend 0.5
+#    [-asequence] afile.fasta
+#    [-bsequence] bfile.fasta
+#    -outfile seq1
+# Align_format: srspair
+# Report_file: seq1
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: seq1
+# 2: align2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       7/9 (77.8%)
+# Similarity:     7/9 (77.8%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+seq1               2 GTGATAAAC     10
+                     |.|.|||||
+align2             4 GGGGTAAAC     12
+
+
+#---------------------------------------
+#---------------------------------------

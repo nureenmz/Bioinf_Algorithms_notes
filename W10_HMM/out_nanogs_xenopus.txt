@@ -1,0 +1,1377 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  nanogs.hmm
+# target sequence database:        xenopus_seqs.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       nanogs.aln  [M=165]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+      0.002   20.4   0.2      0.002   20.4   0.2    2.4  1  gi|148357118|ref|NP_001091862.1|      nanog homeobox [Danio rerio]
+  ------ inclusion threshold ------
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|183985812|gb|AAI66398.1|           hoxa3 protein [Xenopus tropicali
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|188528951|ref|NP_001120901.1|      homeobox protein Hox-A3 [Xenopus
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134169|ref|XP_012819775.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134179|ref|XP_012819776.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134183|ref|XP_012819777.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134188|ref|XP_012819778.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134191|ref|XP_012819779.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134194|ref|XP_012819780.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134197|ref|XP_012819781.1|      PREDICTED: homeobox protein Hox-
+      0.057   15.6   1.2      0.094   14.9   0.1    1.9  1  gi|847134199|ref|XP_012819782.1|      PREDICTED: homeobox protein Hox-
+       0.11   14.7   0.6       0.24   13.6   0.0    1.8  1  gi|148236299|ref|NP_001080293.1|      homeobox A3 [Xenopus laevis]
+       0.11   14.7   0.6       0.24   13.6   0.0    1.8  1  gi|27469867|gb|AAH41731.1|            Hoxa3a-prov protein [Xenopus lae
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|134026018|gb|AAI35407.1|           homeobox B3 [Xenopus tropicalis]
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|62857599|ref|NP_001015971.1|       homeobox protein Hox-B3 [Xenopus
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168200|ref|XP_012827200.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168202|ref|XP_012827201.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168204|ref|XP_012827202.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168206|ref|XP_012827203.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168208|ref|XP_012827204.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168210|ref|XP_012827205.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168212|ref|XP_012827206.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168214|ref|XP_012827207.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|847168216|ref|XP_012827208.1|      PREDICTED: homeobox protein Hox-
+       0.17   14.1   0.2       0.17   14.1   0.2    1.8  1  gi|89271899|emb|CAJ82652.1|           homeo box B3 [Xenopus tropicalis
+       0.26   13.5   0.3       0.36   13.0   0.3    1.2  1  gi|288557300|ref|NP_001165675.1|      ventral anterior homeobox 2b [Xe
+       0.26   13.5   0.3       0.36   13.0   0.3    1.2  1  gi|6707844|gb|AAF25692.1|             ventral anterior homeobox 3 [Xen
+       0.26   13.5   0.3       0.36   13.0   0.3    1.2  1  gi|82247682|sp|Q9IAX9.1|VAX2B_XENLA   RecName: Full=Ventral anterior h
+       0.32   13.2   0.1       0.43   12.8   0.1    1.2  1  gi|1334651|emb|CAA30124.1|            unnamed protein product, partial
+       0.37   13.0   0.2        1.1   11.4   0.2    1.7  2  gi|134024494|gb|AAI36002.1|           bsx protein [Xenopus tropicalis]
+       0.37   13.0   0.2        1.1   11.4   0.2    1.7  2  gi|156120124|ref|NP_001095280.1|      brain-specific homeobox protein 
+       0.41   12.8   0.1        1.1   11.5   0.0    1.7  1  gi|28200479|gb|AAO31758.1|            vent-1 [Xenopus tropicalis]
+       0.41   12.8   0.1        1.1   11.5   0.0    1.7  1  gi|45360949|ref|NP_988861.1|          homeobox protein vent1 [Xenopus 
+       0.48   12.6   0.0       0.93   11.7   0.0    1.5  1  gi|123907399|sp|Q28IU6.1|HXD1_XENTR   RecName: Full=Homeobox protein H
+       0.48   12.6   0.0       0.93   11.7   0.0    1.5  1  gi|169642308|gb|AAI60395.1|           homeobox D1 [Xenopus tropicalis]
+       0.48   12.6   0.0       0.93   11.7   0.0    1.5  1  gi|213627234|gb|AAI70961.1|           homeobox D1 [Xenopus tropicalis]
+       0.48   12.6   0.0       0.93   11.7   0.0    1.5  1  gi|213627236|gb|AAI70965.1|           homeobox D1 [Xenopus tropicalis]
+       0.48   12.6   0.0       0.93   11.7   0.0    1.5  1  gi|62859877|ref|NP_001016678.1|       homeobox protein Hox-D1 [Xenopus
+       0.48   12.6   0.0       0.93   11.7   0.0    1.5  1  gi|89268715|emb|CAJ83247.1|           homeo box D1 [Xenopus tropicalis
+       0.63   12.2   1.4       0.92   11.7   1.4    1.3  1  gi|15029064|emb|CAC44978.1|           homebox protein Hoxa9, partial [
+       0.64   12.2   0.0        1.1   11.4   0.0    1.4  1  gi|80478743|gb|AAI08916.1|            VENT homeobox homolog (Xenopus l
+       0.64   12.2   0.0        1.1   11.4   0.0    1.4  1  gi|119581727|gb|EAW61323.1|           VENT homeobox homolog (Xenopus l
+       0.64   12.2   0.0        1.1   11.4   0.0    1.4  1  gi|167773591|gb|ABZ92230.1|           VENT homeobox homolog (Xenopus l
+       0.64   12.2   0.0        1.1   11.4   0.0    1.4  1  gi|80474553|gb|AAI08917.1|            VENT homeobox homolog (Xenopus l
+       0.66   12.1   1.4       0.98   11.6   1.4    1.3  1  gi|64467|emb|CAA43908.1|              homeobox, partial [Xenopus borea
+       0.67   12.1   2.6        1.2   11.3   2.6    1.4  1  gi|62857851|ref|NP_001017256.1|       homeobox C9 [Xenopus tropicalis]
+       0.67   12.1   2.6        1.2   11.3   2.6    1.4  1  gi|89267925|emb|CAJ82440.1|           homeo box C9 [Xenopus tropicalis
+        0.8   11.9   4.3        4.5    9.4   0.1    2.6  2  gi|298676472|ref|NP_001177334.1|      Xvent-2B protein [Xenopus laevis
+        0.8   11.9   4.3        4.5    9.4   0.1    2.6  2  gi|4191276|emb|CAA10306.1|            Xvent-2B protein [Xenopus laevis
+       0.87   11.8   1.5          2   10.6   1.5    1.6  1  gi|76779534|gb|AAI06384.1|            Unknown (protein for MGC:130958)
+        0.9   11.7   4.0        5.4    9.2   0.2    2.4  2  gi|1314639|gb|AAC59909.1|             Vox-1 [Xenopus laevis]
+       0.91   11.7   4.0        5.4    9.2   0.2    2.3  2  gi|1167988|gb|AAB03567.1|             Xbr-1b [Xenopus laevis]
+       0.91   11.7   4.0        5.4    9.2   0.2    2.3  2  gi|147899874|ref|NP_001081450.1|      VENT homeobox 2, gene 1 [Xenopus
+        1.2   11.4   2.4        3.7    9.7   1.0    2.3  2  gi|404351677|ref|NP_001258236.1|      homeobox C10 [Xenopus tropicalis
+        1.2   11.3   1.6        4.9    9.3   0.2    2.2  2  gi|1167986|gb|AAB03566.1|             Xbr-1a, partial [Xenopus laevis]
+        1.3   11.2   0.6        4.7    9.4   0.1    2.0  2  gi|847139872|ref|XP_012821026.1|      PREDICTED: homeobox even-skipped
+          2   10.6   2.8        5.2    9.2   0.2    2.3  2  gi|1314641|gb|AAC59910.1|             Vox-15 [Xenopus laevis]
+          2   10.6   5.9        5.6    9.1   5.6    1.8  2  gi|147906172|ref|NP_001084160.1|      homeobox protein OTX2-A [Xenopus
+          2   10.6   5.9        5.6    9.1   5.6    1.8  2  gi|3024328|sp|Q91813.1|OTX2A_XENLA    RecName: Full=Homeobox protein O
+          2   10.6   5.9        5.6    9.1   5.6    1.8  2  gi|50417482|gb|AAH77357.1|            Otx2 protein [Xenopus laevis]
+          2   10.6   5.9        5.6    9.1   5.6    1.8  2  gi|793888|emb|CAA87093.1|             homeobox protein [Xenopus laevis
+        2.2   10.4   2.9        5.2    9.2   0.2    2.3  2  gi|1431631|emb|CAA67354.1|            VENT-2 transcription factor [Xen
+        2.2   10.4   2.9        5.2    9.2   0.2    2.3  2  gi|148234366|ref|NP_001081607.1|      VENT homeobox 2, gene 1 [Xenopus
+        2.2   10.4   2.6        3.5    9.8   2.6    1.3  1  gi|115291980|gb|AAI22055.1|           Unknown (protein for IMAGE:78607
+        2.4   10.4   2.9        5.4    9.2   0.2    2.3  2  gi|11065780|gb|AAG28338.1|AF078162_1  Xbr-1a/Xvent-2 protein [Xenopus 
+        2.5   10.3   3.0        5.2    9.2   0.2    2.3  2  gi|163915828|gb|AAI57738.1|           LOC397948 protein [Xenopus laevi
+        2.6   10.2   4.2        5.2    9.2   0.2    2.4  2  gi|1403587|emb|CAA67093.1|            homeobox protein [Xenopus laevis
+        2.6   10.2   4.2        5.2    9.2   0.2    2.4  2  gi|147900450|ref|NP_001080931.1|      VENT homeobox 2, gene 2 [Xenopus
+        2.6   10.2   4.2        5.2    9.2   0.2    2.4  2  gi|213623352|gb|AAI69628.1|           Homeobox protein [Xenopus laevis
+        2.6   10.2   4.2        5.2    9.2   0.2    2.4  2  gi|213626556|gb|AAI69626.1|           Homeobox protein [Xenopus laevis
+        2.8   10.1   2.2        5.2    9.2   2.2    1.5  1  gi|37590431|gb|AAH59757.1|            homeobox B9 [Xenopus tropicalis]
+        2.8   10.1   2.2        5.2    9.2   2.2    1.5  1  gi|45360913|ref|NP_988879.1|          homeobox protein Hox-B9 [Xenopus
+        2.8   10.1   2.2        5.2    9.2   2.2    1.5  1  gi|89269520|emb|CAJ82382.1|           homeo box B9 [Xenopus tropicalis
+          3   10.0   2.6        4.8    9.4   2.6    1.3  1  gi|512822447|ref|XP_004911990.1|      PREDICTED: homeobox protein Hox-
+        3.6    9.8   4.6        5.1    9.3   0.1    2.6  2  gi|115530757|emb|CAL49357.1|          Vent-like homeobox 2 [Xenopus tr
+        3.6    9.7   4.5        5.3    9.2   0.2    2.5  2  gi|512851761|ref|XP_002937178.2|      PREDICTED: homeobox protein Hox-
+        3.8    9.7   4.7        5.3    9.2   0.2    2.6  2  gi|28200477|gb|AAO31757.1|            vent-2 [Xenopus tropicalis]
+        3.8    9.7   4.7        5.3    9.2   0.2    2.6  2  gi|45360943|ref|NP_988862.1|          VENT homeobox 2, gene 1 [Xenopus
+        3.8    9.7   4.7        5.3    9.2   0.2    2.6  2  gi|89271284|emb|CAJ82860.1|           Vent-like homeobox 2 [Xenopus tr
+        6.7    8.9   5.2         21    7.3   0.0    2.9  2  gi|51704169|gb|AAH81317.1|            iroquois homeobox 2 [Xenopus tro
+        6.7    8.9   5.2         21    7.3   0.0    2.9  2  gi|56118566|ref|NP_001008113.1|       iroquois-class homeodomain prote
+        6.7    8.9   5.2         21    7.3   0.0    2.9  2  gi|82181198|sp|Q66IK1.1|IRX2_XENTR    RecName: Full=Iroquois-class hom
+        7.2    8.8   4.2        5.4    9.2   1.4    2.0  2  gi|122936364|gb|AAI30087.1|           LOC100037070 protein [Xenopus la
+        7.2    8.8   4.2        5.4    9.2   1.4    2.0  2  gi|148234522|ref|NP_001091264.1|      homeobox A9 [Xenopus laevis]
+        7.8    8.7   3.7        5.4    9.2   1.4    1.8  2  gi|512848555|ref|XP_004915453.1|      PREDICTED: homeobox protein Hox-
+
+
+Domain annotation for each sequence (and alignments):
+>> gi|148357118|ref|NP_001091862.1|  nanog homeobox [Danio rerio]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.2   1.6e-06     0.002       1      44 [.     241     285 ..     241     311 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 1.6e-06
+                        nanogs.aln   1 twfqnqrmkskrwqkn.nwpknsngvtqkasapveyasfssykqG 44 
+                                       twfqn+rmk kr q++  w+ +   v   + +p+  ++f s   G
+  gi|148357118|ref|NP_001091862.1| 241 TWFQNRRMKLKRHQRDsSWMTERYVVNAVPNTPASQSQFQSEPPG 285
+                                       9*************8527*99988888777778887777775433 PP
+
+>> gi|183985812|gb|AAI66398.1|  hoxa3 protein [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                  wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|183985812|gb|AAI66398.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                  ****************999999876666666655554 PP
+
+>> gi|188528951|ref|NP_001120901.1|  homeobox protein Hox-A3 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|188528951|ref|NP_001120901.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134169|ref|XP_012819775.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134169|ref|XP_012819775.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134179|ref|XP_012819776.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134179|ref|XP_012819776.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134183|ref|XP_012819777.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134183|ref|XP_012819777.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134188|ref|XP_012819778.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134188|ref|XP_012819778.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134191|ref|XP_012819779.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134191|ref|XP_012819779.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134194|ref|XP_012819780.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134194|ref|XP_012819780.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134197|ref|XP_012819781.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134197|ref|XP_012819781.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|847134199|ref|XP_012819782.1|  PREDICTED: homeobox protein Hox-A3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.1   7.6e-05     0.094       2      38 ..     211     247 ..     210     263 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 7.6e-05
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasf 38 
+                                       wfqn+rmk k+ qk + + +s g +    +pv  +s 
+  gi|847134199|ref|XP_012819782.1| 211 WFQNRRMKYKKDQKGKSMMTSSGGQSPCRSPVPTPSV 247
+                                       ****************999999876666666655554 PP
+
+>> gi|148236299|ref|NP_001080293.1|  homeobox A3 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00019      0.24       2      41 ..     210     249 ..     209     262 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00019
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssy 41 
+                                       wfqn+rmk k+ qk   + +s g +    +pv  +s   y
+  gi|148236299|ref|NP_001080293.1| 210 WFQNRRMKYKKDQKGISMMTSSGGQSPCRSPVSAPSIGGY 249
+                                       **************99999998877666667766665444 PP
+
+>> gi|27469867|gb|AAH41731.1|  Hoxa3a-prov protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00019      0.24       2      41 ..     210     249 ..     209     262 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00019
+                  nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssy 41 
+                                 wfqn+rmk k+ qk   + +s g +    +pv  +s   y
+  gi|27469867|gb|AAH41731.1| 210 WFQNRRMKYKKDQKGISMMTSSGGQSPCRSPVSAPSIGGY 249
+                                 **************99999998877666667766665444 PP
+
+>> gi|134026018|gb|AAI35407.1|  homeobox B3 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                  wfqn+rmk k+ qk + + +s g +  +s+
+  gi|134026018|gb|AAI35407.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                  **************9999888876544443 PP
+
+>> gi|62857599|ref|NP_001015971.1|  homeobox protein Hox-B3 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                       nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                      wfqn+rmk k+ qk + + +s g +  +s+
+  gi|62857599|ref|NP_001015971.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                      **************9999888876544443 PP
+
+>> gi|847168200|ref|XP_012827200.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168200|ref|XP_012827200.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168202|ref|XP_012827201.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168202|ref|XP_012827201.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168204|ref|XP_012827202.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168204|ref|XP_012827202.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168206|ref|XP_012827203.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168206|ref|XP_012827203.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168208|ref|XP_012827204.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168208|ref|XP_012827204.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168210|ref|XP_012827205.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168210|ref|XP_012827205.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168212|ref|XP_012827206.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168212|ref|XP_012827206.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168214|ref|XP_012827207.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168214|ref|XP_012827207.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|847168216|ref|XP_012827208.1|  PREDICTED: homeobox protein Hox-B3 isoform X1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                       wfqn+rmk k+ qk + + +s g +  +s+
+  gi|847168216|ref|XP_012827208.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                       **************9999888876544443 PP
+
+>> gi|89271899|emb|CAJ82652.1|  homeo box B3 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.2   0.00013      0.17       2      31 ..     203     232 ..     202     283 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 0.00013
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasa 31 
+                                  wfqn+rmk k+ qk + + +s g +  +s+
+  gi|89271899|emb|CAJ82652.1| 203 WFQNRRMKYKKDQKVKGMSSSSGGASPTST 232
+                                  **************9999888876544443 PP
+
+>> gi|288557300|ref|NP_001165675.1|  ventral anterior homeobox 2b [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   0.00029      0.36       2      64 ..     145     204 ..     144     225 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00029
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvnasGnlplwssqtwnnp 64 
+                                       wfqn+r k k+ q  +  k s + ++ + a    +     +qG l+  +   ++ ssq    +
+  gi|288557300|ref|NP_001165675.1| 145 WFQNRRTKQKKDQSRDSEKRSSSTSE-SFA--TCNILRLLEQGRLLSVPAPPNMISSQNNMGT 204
+                                       *******************9998764.333..3445667899999999999999999865544 PP
+
+>> gi|6707844|gb|AAF25692.1|  ventral anterior homeobox 3 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   0.00029      0.36       2      64 ..     145     204 ..     144     225 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00029
+                 nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvnasGnlplwssqtwnnp 64 
+                                wfqn+r k k+ q  +  k s + ++ + a    +     +qG l+  +   ++ ssq    +
+  gi|6707844|gb|AAF25692.1| 145 WFQNRRTKQKKDQSRDSEKRSSSTSE-SFA--TCNILRLLEQGRLLSVPAPPNMISSQNNMGT 204
+                                *******************9998764.333..3445667899999999999999999865544 PP
+
+>> gi|82247682|sp|Q9IAX9.1|VAX2B_XENLA  RecName: Full=Ventral anterior homeobox 2b; AltName: Full=Ventral anterior homeo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.3   0.00029      0.36       2      64 ..     145     204 ..     144     225 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 0.00029
+                           nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvnasGnlplwssqtwnnp 64 
+                                          wfqn+r k k+ q  +  k s + ++ + a    +     +qG l+  +   ++ ssq    +
+  gi|82247682|sp|Q9IAX9.1|VAX2B_XENLA 145 WFQNRRTKQKKDQSRDSEKRSSSTSE-SFA--TCNILRLLEQGRLLSVPAPPNMISSQNNMGT 204
+                                          *******************9998764.333..3445667899999999999999999865544 PP
+
+>> gi|1334651|emb|CAA30124.1|  unnamed protein product, partial [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.1   0.00035      0.43       2      24 ..      50      72 ..      49      85 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 0.00035
+                  nanogs.aln  2 wfqnqrmkskrwqknnwpknsng 24
+                                wfqn+rmk k+  k++  ++ ++
+  gi|1334651|emb|CAA30124.1| 50 WFQNRRMKWKKEHKEESDQTPDA 72
+                                ***********999887666554 PP
+
+>> gi|134024494|gb|AAI36002.1|  bsx protein [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.0       8.2     1e+04     141     157 ..     127     143 ..     118     148 .. 0.80
+   2 ?   11.4   0.2   0.00088       1.1       1      15 [.     151     165 ..     151     193 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 8.2
+                   nanogs.aln 141 tkyfstpqildlflnys 157
+                                   +y+stp+ ++l    s
+  gi|134024494|gb|AAI36002.1| 127 QRYLSTPERVELATALS 143
+                                  69******999987666 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00088
+                   nanogs.aln   1 twfqnqrmkskrwqk 15 
+                                  twfqn+rmk k+  +
+  gi|134024494|gb|AAI36002.1| 151 TWFQNRRMKHKKQLR 165
+                                  9********998533 PP
+
+>> gi|156120124|ref|NP_001095280.1|  brain-specific homeobox protein homolog [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.0       8.2     1e+04     141     157 ..     127     143 ..     118     148 .. 0.80
+   2 ?   11.4   0.2   0.00088       1.1       1      15 [.     151     165 ..     151     193 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 8.2
+                        nanogs.aln 141 tkyfstpqildlflnys 157
+                                        +y+stp+ ++l    s
+  gi|156120124|ref|NP_001095280.1| 127 QRYLSTPERVELATALS 143
+                                       69******999987666 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00088
+                        nanogs.aln   1 twfqnqrmkskrwqk 15 
+                                       twfqn+rmk k+  +
+  gi|156120124|ref|NP_001095280.1| 151 TWFQNRRMKHKKQLR 165
+                                       9********998533 PP
+
+>> gi|28200479|gb|AAO31758.1|  vent-1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00086       1.1       1      18 [.     173     190 ..     173     214 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00086
+                  nanogs.aln   1 twfqnqrmkskrwqknnw 18 
+                                 twfqn+rmk kr  +++ 
+  gi|28200479|gb|AAO31758.1| 173 TWFQNRRMKLKRQIQDQQ 190
+                                 9**********9876665 PP
+
+>> gi|45360949|ref|NP_988861.1|  homeobox protein vent1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00086       1.1       1      18 [.     173     190 ..     173     214 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00086
+                    nanogs.aln   1 twfqnqrmkskrwqknnw 18 
+                                   twfqn+rmk kr  +++ 
+  gi|45360949|ref|NP_988861.1| 173 TWFQNRRMKLKRQIQDQQ 190
+                                   9**********9876665 PP
+
+>> gi|123907399|sp|Q28IU6.1|HXD1_XENTR  RecName: Full=Homeobox protein Hox-D1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00075      0.93       2      49 ..     250     297 ..     249     301 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00075
+                           nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvna 49 
+                                          wfqn+rmk k+ +++  + ns      +s  v+ +   s+++   + +
+  gi|123907399|sp|Q28IU6.1|HXD1_XENTR 250 WFQNRRMKQKKREREGSLPNSPPSGPASSICVKTPLSKSVHETATLSP 297
+                                          ************999999999888888888888888888887766665 PP
+
+>> gi|169642308|gb|AAI60395.1|  homeobox D1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00075      0.93       2      49 ..     250     297 ..     249     301 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00075
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvna 49 
+                                  wfqn+rmk k+ +++  + ns      +s  v+ +   s+++   + +
+  gi|169642308|gb|AAI60395.1| 250 WFQNRRMKQKKREREGSLPNSPPSGPASSICVKTPLSKSVHETATLSP 297
+                                  ************999999999888888888888888888887766665 PP
+
+>> gi|213627234|gb|AAI70961.1|  homeobox D1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00075      0.93       2      49 ..     250     297 ..     249     301 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00075
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvna 49 
+                                  wfqn+rmk k+ +++  + ns      +s  v+ +   s+++   + +
+  gi|213627234|gb|AAI70961.1| 250 WFQNRRMKQKKREREGSLPNSPPSGPASSICVKTPLSKSVHETATLSP 297
+                                  ************999999999888888888888888888887766665 PP
+
+>> gi|213627236|gb|AAI70965.1|  homeobox D1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00075      0.93       2      49 ..     250     297 ..     249     301 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00075
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvna 49 
+                                  wfqn+rmk k+ +++  + ns      +s  v+ +   s+++   + +
+  gi|213627236|gb|AAI70965.1| 250 WFQNRRMKQKKREREGSLPNSPPSGPASSICVKTPLSKSVHETATLSP 297
+                                  ************999999999888888888888888888887766665 PP
+
+>> gi|62859877|ref|NP_001016678.1|  homeobox protein Hox-D1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00075      0.93       2      49 ..     250     297 ..     249     301 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00075
+                       nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvna 49 
+                                      wfqn+rmk k+ +++  + ns      +s  v+ +   s+++   + +
+  gi|62859877|ref|NP_001016678.1| 250 WFQNRRMKQKKREREGSLPNSPPSGPASSICVKTPLSKSVHETATLSP 297
+                                      ************999999999888888888888888888887766665 PP
+
+>> gi|89268715|emb|CAJ83247.1|  homeo box D1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00075      0.93       2      49 ..     250     297 ..     249     301 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00075
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpknsngvtqkasapveyasfssykqGylvna 49 
+                                  wfqn+rmk k+ +++  + ns      +s  v+ +   s+++   + +
+  gi|89268715|emb|CAJ83247.1| 250 WFQNRRMKQKKREREGSLPNSPPSGPASSICVKTPLSKSVHETATLSP 297
+                                  ************999999999888888888888888888887766665 PP
+
+>> gi|15029064|emb|CAC44978.1|  homebox protein Hoxa9, partial [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   1.4   0.00074      0.92       2      17 ..      56      71 ..      55      75 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00074
+                   nanogs.aln  2 wfqnqrmkskrwqknn 17
+                                 wfqn+rmk k+ +k++
+  gi|15029064|emb|CAC44978.1| 56 WFQNRRMKMKKINKDR 71
+                                 ***********99975 PP
+
+>> gi|80478743|gb|AAI08916.1|  VENT homeobox homolog (Xenopus laevis) [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0    0.0009       1.1       1      15 [.     137     151 ..     137     185 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0009
+                  nanogs.aln   1 twfqnqrmkskrwqk 15 
+                                 twfqn+rmk kr  +
+  gi|80478743|gb|AAI08916.1| 137 TWFQNRRMKHKRQMQ 151
+                                 9**********9654 PP
+
+>> gi|119581727|gb|EAW61323.1|  VENT homeobox homolog (Xenopus laevis) [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0    0.0009       1.1       1      15 [.     137     151 ..     137     185 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0009
+                   nanogs.aln   1 twfqnqrmkskrwqk 15 
+                                  twfqn+rmk kr  +
+  gi|119581727|gb|EAW61323.1| 137 TWFQNRRMKHKRQMQ 151
+                                  9**********9654 PP
+
+>> gi|167773591|gb|ABZ92230.1|  VENT homeobox homolog (Xenopus laevis), partial [synthetic construct]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0    0.0009       1.1       1      15 [.     137     151 ..     137     185 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0009
+                   nanogs.aln   1 twfqnqrmkskrwqk 15 
+                                  twfqn+rmk kr  +
+  gi|167773591|gb|ABZ92230.1| 137 TWFQNRRMKHKRQMQ 151
+                                  9**********9654 PP
+
+>> gi|80474553|gb|AAI08917.1|  VENT homeobox homolog (Xenopus laevis) [Homo sapiens]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0    0.0009       1.1       1      15 [.     137     151 ..     137     185 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.0009
+                  nanogs.aln   1 twfqnqrmkskrwqk 15 
+                                 twfqn+rmk kr  +
+  gi|80474553|gb|AAI08917.1| 137 TWFQNRRMKHKRQMQ 151
+                                 9**********9654 PP
+
+>> gi|64467|emb|CAA43908.1|  homeobox, partial [Xenopus borealis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   1.4   0.00079      0.98       2      17 ..      59      74 ..      58      78 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00079
+                nanogs.aln  2 wfqnqrmkskrwqknn 17
+                              wfqn+rmk k+ +k++
+  gi|64467|emb|CAA43908.1| 59 WFQNRRMKMKKINKDR 74
+                              ***********99975 PP
+
+>> gi|62857851|ref|NP_001017256.1|  homeobox C9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   2.6   0.00097       1.2       2      20 ..      79      97 ..      78     100 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00097
+                       nanogs.aln  2 wfqnqrmkskrwqknnwpk 20
+                                     wfqn+rmk k+ +k++  k
+  gi|62857851|ref|NP_001017256.1| 79 WFQNRRMKMKKMNKEKPDK 97
+                                     *************998666 PP
+
+>> gi|89267925|emb|CAJ82440.1|  homeo box C9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   2.6   0.00097       1.2       2      20 ..      79      97 ..      78     100 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00097
+                   nanogs.aln  2 wfqnqrmkskrwqknnwpk 20
+                                 wfqn+rmk k+ +k++  k
+  gi|89267925|emb|CAJ82440.1| 79 WFQNRRMKMKKMNKEKPDK 97
+                                 *************998666 PP
+
+>> gi|298676472|ref|NP_001177334.1|  Xvent-2B protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.8       0.3   3.7e+02      73      94 ..      42      62 ..       4      96 .. 0.72
+   2 ?    9.4   0.1    0.0036       4.5       1      13 [.     236     248 ..     236     257 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.3
+                        nanogs.aln 73 sqswsnhswnaqtwctqawnnq 94
+                                       +s s  swn+    + +wnnq
+  gi|298676472|ref|NP_001177334.1| 42 YPSPSLPSWNS-EVSPSSWNNQ 62
+                                      34555566666.4566667766 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.0036
+                        nanogs.aln   1 twfqnqrmkskrw 13 
+                                       twfqn+rmk kr 
+  gi|298676472|ref|NP_001177334.1| 236 TWFQNRRMKHKRE 248
+                                       9**********95 PP
+
+>> gi|4191276|emb|CAA10306.1|  Xvent-2B protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.8       0.3   3.7e+02      73      94 ..      42      62 ..       4      96 .. 0.72
+   2 ?    9.4   0.1    0.0036       4.5       1      13 [.     236     248 ..     236     257 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.3
+                  nanogs.aln 73 sqswsnhswnaqtwctqawnnq 94
+                                 +s s  swn+    + +wnnq
+  gi|4191276|emb|CAA10306.1| 42 YPSPSLPSWNS-EVSPSSWNNQ 62
+                                34555566666.4566667766 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.0036
+                  nanogs.aln   1 twfqnqrmkskrw 13 
+                                 twfqn+rmk kr 
+  gi|4191276|emb|CAA10306.1| 236 TWFQNRRMKHKRE 248
+                                 9**********95 PP
+
+>> gi|76779534|gb|AAI06384.1|  Unknown (protein for MGC:130958) [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   1.5    0.0017         2       2      28 ..     221     249 ..     220     266 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0017
+                  nanogs.aln   2 wfqnqrmkskrwqkn..nwpknsngvtqk 28 
+                                 wfqn+rmk kr +k   +  ++s    q+
+  gi|76779534|gb|AAI06384.1| 221 WFQNRRMKWKRSKKAkeQAAQDSAEKKQR 249
+                                 **********9987611445555555554 PP
+
+>> gi|1314639|gb|AAC59909.1|  Vox-1 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.6      0.26   3.2e+02      74      95 ..      34      54 ..       4      89 .. 0.72
+   2 ?    9.2   0.2    0.0043       5.4       1      13 [.     229     241 ..     229     250 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.26
+                 nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                               +s s  swn+    + +wnnq 
+  gi|1314639|gb|AAC59909.1| 34 PSPSLPSWNS-EVSPSSWNNQL 54
+                               4555566776.45666777764 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                 nanogs.aln   1 twfqnqrmkskrw 13 
+                                twfqn+rmk kr 
+  gi|1314639|gb|AAC59909.1| 229 TWFQNRRMKYKRE 241
+                                9**********95 PP
+
+>> gi|1167988|gb|AAB03567.1|  Xbr-1b [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.6      0.26   3.2e+02      74      95 ..      34      54 ..       4      89 .. 0.72
+   2 ?    9.2   0.2    0.0043       5.4       1      13 [.     229     241 ..     229     250 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.26
+                 nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                               +s s  swn+    + +wnnq 
+  gi|1167988|gb|AAB03567.1| 34 PSPSLPSWNS-EVSPSSWNNQL 54
+                               4555566776.45666777764 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                 nanogs.aln   1 twfqnqrmkskrw 13 
+                                twfqn+rmk kr 
+  gi|1167988|gb|AAB03567.1| 229 TWFQNRRMKYKRE 241
+                                9**********95 PP
+
+>> gi|147899874|ref|NP_001081450.1|  VENT homeobox 2, gene 1 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.6      0.26   3.2e+02      74      95 ..      34      54 ..       4      89 .. 0.72
+   2 ?    9.2   0.2    0.0043       5.4       1      13 [.     229     241 ..     229     250 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.4 bits;  conditional E-value: 0.26
+                        nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                                      +s s  swn+    + +wnnq 
+  gi|147899874|ref|NP_001081450.1| 34 PSPSLPSWNS-EVSPSSWNNQL 54
+                                      4555566776.45666777764 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                        nanogs.aln   1 twfqnqrmkskrw 13 
+                                       twfqn+rmk kr 
+  gi|147899874|ref|NP_001081450.1| 229 TWFQNRRMKYKRE 241
+                                       9**********95 PP
+
+>> gi|404351677|ref|NP_001258236.1|  homeobox C10 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0       3.5   4.4e+03      30      53 ..     141     164 ..     120     191 .. 0.72
+   2 ?    9.7   1.0     0.003       3.7       2      21 ..     324     343 ..     323     348 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 3.5
+                        nanogs.aln  30 sapveyasfssykqGylvnasGnl 53 
+                                          v  +s++  +qGy ++ + + 
+  gi|404351677|ref|NP_001258236.1| 141 DHEVPVPSYYRASQGYSMEKTPSC 164
+                                       334556789999999999877654 PP
+
+  == domain 2  score: 9.7 bits;  conditional E-value: 0.003
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpkn 21 
+                                       wfqn+rmk k+ +++n  ++
+  gi|404351677|ref|NP_001258236.1| 324 WFQNRRMKLKKMNRENRIRE 343
+                                       ************99998775 PP
+
+>> gi|1167986|gb|AAB03566.1|  Xbr-1a, partial [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7   0.1       1.8   2.2e+03      80      95 ..      13      27 ..       7      76 .. 0.70
+   2 ?    9.3   0.2     0.004       4.9       1      13 [.     203     215 ..     203     224 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 1.8
+                 nanogs.aln 80 swnaqtwctqawnnqa 95
+                               swn+    + +wn+q 
+  gi|1167986|gb|AAB03566.1| 13 SWNS-DVSPSSWNSQL 27
+                               5666.34566666663 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.004
+                 nanogs.aln   1 twfqnqrmkskrw 13 
+                                twfqn+rmk kr 
+  gi|1167986|gb|AAB03566.1| 203 TWFQNRRMKYKRE 215
+                                9**********95 PP
+
+>> gi|847139872|ref|XP_012821026.1|  PREDICTED: homeobox even-skipped homolog protein 1 isoform X2 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.4   0.1    0.0038       4.7       2      20 ..      77      96 ..      76     118 .. 0.80
+   2 ?   -0.3   0.1       3.5   4.3e+03      21      49 ..     200     228 ..     196     240 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.0038
+                        nanogs.aln  2 wfqnqrmkskrwqk.nnwpk 20
+                                      wfqn+rmk kr +    wp+
+  gi|847139872|ref|XP_012821026.1| 77 WFQNRRMKDKRQRLaMTWPH 96
+                                      **********9764145765 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 3.5
+                        nanogs.aln  21 nsngvtqkasapveyasfssykqGylvna 49 
+                                       +sng+ q+a+a+    s +s +  +l  +
+  gi|847139872|ref|XP_012821026.1| 200 SSNGLGQRAAASDFTCSSTSRSDSFLTFT 228
+                                       79******999988888888777777655 PP
+
+>> gi|1314641|gb|AAC59910.1|  Vox-15 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.3       1.2   1.5e+03      79      95 ..      39      54 ..       4     104 .. 0.71
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     230     242 ..     230     251 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 1.2
+                 nanogs.aln 79 hswnaqtwctqawnnqa 95
+                                swn+    + +wn+q 
+  gi|1314641|gb|AAC59910.1| 39 PSWNS-DVSPSSWNSQL 54
+                               45665.34555666653 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                 nanogs.aln   1 twfqnqrmkskrw 13 
+                                twfqn+rmk kr 
+  gi|1314641|gb|AAC59910.1| 230 TWFQNRRMKYKRE 242
+                                9**********95 PP
+
+>> gi|147906172|ref|NP_001084160.1|  homeobox protein OTX2-A [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   5.6    0.0046       5.6       2      70 ..      85     156 ..      84     189 .. 0.76
+   2 ?   -0.9   0.1       5.5   6.8e+03      21      46 ..     166     190 ..     160     199 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0046
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpknsngv..tqkasapveyasfssykqGylvna.sGnlplwssqtwnnptwsnqt 70 
+                                       wf+n+r k+++ q+++     n v  ++k ++pv   s  s + G +  + s ++p+ ss t   + ws  +
+  gi|147906172|ref|NP_001084160.1|  85 WFKNRRAKCRQQQQQQQNGGQNKVrpSKKKTSPVREVSSESGTSGQFSPPsSTSVPVISSSTAPVSIWSPAS 156
+                                       ***********99999988888883345667788777777888887776516799*************9876 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 5.5
+                        nanogs.aln  21 nsngvtqkasapveyasfssykqGyl 46 
+                                       +s + +q++  p+ y++ s y+qGy 
+  gi|147906172|ref|NP_001084160.1| 166 TSSSCMQRSY-PMTYTQASGYSQGYA 190
+                                       5667776655.778888999999985 PP
+
+>> gi|3024328|sp|Q91813.1|OTX2A_XENLA  RecName: Full=Homeobox protein OTX2-A; Short=xOTX2-A; AltName: Full=Orthodenticle
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   5.6    0.0046       5.6       2      70 ..      85     156 ..      84     189 .. 0.76
+   2 ?   -0.9   0.1       5.5   6.8e+03      21      46 ..     166     190 ..     160     199 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0046
+                          nanogs.aln   2 wfqnqrmkskrwqknnwpknsngv..tqkasapveyasfssykqGylvna.sGnlplwssqtwnnptwsnqt 70 
+                                         wf+n+r k+++ q+++     n v  ++k ++pv   s  s + G +  + s ++p+ ss t   + ws  +
+  gi|3024328|sp|Q91813.1|OTX2A_XENLA  85 WFKNRRAKCRQQQQQQQNGGQNKVrpSKKKTSPVREVSSESGTSGQFSPPsSTSVPVISSSTAPVSIWSPAS 156
+                                         ***********99999988888883345667788777777888887776516799*************9876 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 5.5
+                          nanogs.aln  21 nsngvtqkasapveyasfssykqGyl 46 
+                                         +s + +q++  p+ y++ s y+qGy 
+  gi|3024328|sp|Q91813.1|OTX2A_XENLA 166 TSSSCMQRSY-PMTYTQASGYSQGYA 190
+                                         5667776655.778888999999985 PP
+
+>> gi|50417482|gb|AAH77357.1|  Otx2 protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   5.6    0.0046       5.6       2      70 ..      85     156 ..      84     189 .. 0.76
+   2 ?   -0.9   0.1       5.5   6.8e+03      21      46 ..     166     190 ..     160     199 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0046
+                  nanogs.aln   2 wfqnqrmkskrwqknnwpknsngv..tqkasapveyasfssykqGylvna.sGnlplwssqtwnnptwsnqt 70 
+                                 wf+n+r k+++ q+++     n v  ++k ++pv   s  s + G +  + s ++p+ ss t   + ws  +
+  gi|50417482|gb|AAH77357.1|  85 WFKNRRAKCRQQQQQQQNGGQNKVrpSKKKTSPVREVSSESGTSGQFSPPsSTSVPVISSSTAPVSIWSPAS 156
+                                 ***********99999988888883345667788777777888887776516799*************9876 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 5.5
+                  nanogs.aln  21 nsngvtqkasapveyasfssykqGyl 46 
+                                 +s + +q++  p+ y++ s y+qGy 
+  gi|50417482|gb|AAH77357.1| 166 TSSSCMQRSY-PMTYTQASGYSQGYA 190
+                                 5667776655.778888999999985 PP
+
+>> gi|793888|emb|CAA87093.1|  homeobox protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   5.6    0.0046       5.6       2      70 ..      85     156 ..      84     189 .. 0.76
+   2 ?   -0.9   0.1       5.5   6.8e+03      21      46 ..     166     190 ..     160     199 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0046
+                 nanogs.aln   2 wfqnqrmkskrwqknnwpknsngv..tqkasapveyasfssykqGylvna.sGnlplwssqtwnnptwsnqt 70 
+                                wf+n+r k+++ q+++     n v  ++k ++pv   s  s + G +  + s ++p+ ss t   + ws  +
+  gi|793888|emb|CAA87093.1|  85 WFKNRRAKCRQQQQQQQNGGQNKVrpSKKKTSPVREVSSESGTSGQFSPPsSTSVPVISSSTAPVSIWSPAS 156
+                                ***********99999988888883345667788777777888887776516799*************9876 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 5.5
+                 nanogs.aln  21 nsngvtqkasapveyasfssykqGyl 46 
+                                +s + +q++  p+ y++ s y+qGy 
+  gi|793888|emb|CAA87093.1| 166 TSSSCMQRSY-PMTYTQASGYSQGYA 190
+                                5667776655.778888999999985 PP
+
+>> gi|1431631|emb|CAA67354.1|  VENT-2 transcription factor [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.3       1.2   1.5e+03      79      95 ..      39      54 ..       4     103 .. 0.71
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     230     242 ..     230     251 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 1.2
+                  nanogs.aln 79 hswnaqtwctqawnnqa 95
+                                 swn+    + +wn+q 
+  gi|1431631|emb|CAA67354.1| 39 PSWNS-DVSPSSWNSQL 54
+                                45665.34555666653 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                  nanogs.aln   1 twfqnqrmkskrw 13 
+                                 twfqn+rmk kr 
+  gi|1431631|emb|CAA67354.1| 230 TWFQNRRMKYKRE 242
+                                 9**********95 PP
+
+>> gi|148234366|ref|NP_001081607.1|  VENT homeobox 2, gene 1 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.3       1.2   1.5e+03      79      95 ..      39      54 ..       4     103 .. 0.71
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     230     242 ..     230     251 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 1.2
+                        nanogs.aln 79 hswnaqtwctqawnnqa 95
+                                       swn+    + +wn+q 
+  gi|148234366|ref|NP_001081607.1| 39 PSWNS-DVSPSSWNSQL 54
+                                      45665.34555666653 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                        nanogs.aln   1 twfqnqrmkskrw 13 
+                                       twfqn+rmk kr 
+  gi|148234366|ref|NP_001081607.1| 230 TWFQNRRMKYKRE 242
+                                       9**********95 PP
+
+>> gi|115291980|gb|AAI22055.1|  Unknown (protein for IMAGE:7860727), partial [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   2.6    0.0028       3.5       2      20 ..     191     209 ..     190     212 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.0028
+                   nanogs.aln   2 wfqnqrmkskrwqknnwpk 20 
+                                  wfqn+rmk k+ +k++  k
+  gi|115291980|gb|AAI22055.1| 191 WFQNRRMKMKKMNKEKPDK 209
+                                  *************998666 PP
+
+>> gi|11065780|gb|AAG28338.1|AF078162_1  Xbr-1a/Xvent-2 protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.3       1.3   1.6e+03      79      95 ..      39      54 ..       4     103 .. 0.72
+   2 ?    9.2   0.2    0.0044       5.4       1      13 [.     230     242 ..     230     251 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 1.3
+                            nanogs.aln 79 hswnaqtwctqawnnqa 95
+                                           swn+    + +wn+q 
+  gi|11065780|gb|AAG28338.1|AF078162_1 39 PSWNS-DVSPSSWNSQL 54
+                                          45665.34555666653 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0044
+                            nanogs.aln   1 twfqnqrmkskrw 13 
+                                           twfqn+rmk kr 
+  gi|11065780|gb|AAG28338.1|AF078162_1 230 TWFQNRRMKYKRE 242
+                                           9**********95 PP
+
+>> gi|163915828|gb|AAI57738.1|  LOC397948 protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.3       1.3   1.6e+03      79      94 ..      39      53 ..       4     103 .. 0.73
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     230     242 ..     230     251 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 1.3
+                   nanogs.aln 79 hswnaqtwctqawnnq 94
+                                  swn+    + +wn+q
+  gi|163915828|gb|AAI57738.1| 39 PSWNS-DVSPSSWNSQ 53
+                                 45666.3455666665 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                   nanogs.aln   1 twfqnqrmkskrw 13 
+                                  twfqn+rmk kr 
+  gi|163915828|gb|AAI57738.1| 230 TWFQNRRMKYKRE 242
+                                  9**********95 PP
+
+>> gi|1403587|emb|CAA67093.1|  homeobox protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.7      0.76   9.4e+02      74      95 ..      34      54 ..       4     102 .. 0.72
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     220     232 ..     220     241 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.76
+                  nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                                +s s  swn+    + +wn+q 
+  gi|1403587|emb|CAA67093.1| 34 PSPSLPSWNS-DVSPSSWNSQL 54
+                                4445556666.44566666663 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                  nanogs.aln   1 twfqnqrmkskrw 13 
+                                 twfqn+rmk kr 
+  gi|1403587|emb|CAA67093.1| 220 TWFQNRRMKYKRE 232
+                                 9**********95 PP
+
+>> gi|147900450|ref|NP_001080931.1|  VENT homeobox 2, gene 2 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.7      0.76   9.4e+02      74      95 ..      34      54 ..       4     102 .. 0.72
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     220     232 ..     220     241 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.76
+                        nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                                      +s s  swn+    + +wn+q 
+  gi|147900450|ref|NP_001080931.1| 34 PSPSLPSWNS-DVSPSSWNSQL 54
+                                      4445556666.44566666663 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                        nanogs.aln   1 twfqnqrmkskrw 13 
+                                       twfqn+rmk kr 
+  gi|147900450|ref|NP_001080931.1| 220 TWFQNRRMKYKRE 232
+                                       9**********95 PP
+
+>> gi|213623352|gb|AAI69628.1|  Homeobox protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.7      0.76   9.4e+02      74      95 ..      34      54 ..       4     102 .. 0.72
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     220     232 ..     220     241 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.76
+                   nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                                 +s s  swn+    + +wn+q 
+  gi|213623352|gb|AAI69628.1| 34 PSPSLPSWNS-DVSPSSWNSQL 54
+                                 4445556666.44566666663 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                   nanogs.aln   1 twfqnqrmkskrw 13 
+                                  twfqn+rmk kr 
+  gi|213623352|gb|AAI69628.1| 220 TWFQNRRMKYKRE 232
+                                  9**********95 PP
+
+>> gi|213626556|gb|AAI69626.1|  Homeobox protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.7      0.76   9.4e+02      74      95 ..      34      54 ..       4     102 .. 0.72
+   2 ?    9.2   0.2    0.0042       5.2       1      13 [.     220     232 ..     220     241 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.76
+                   nanogs.aln 74 qswsnhswnaqtwctqawnnqa 95
+                                 +s s  swn+    + +wn+q 
+  gi|213626556|gb|AAI69626.1| 34 PSPSLPSWNS-DVSPSSWNSQL 54
+                                 4445556666.44566666663 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0042
+                   nanogs.aln   1 twfqnqrmkskrw 13 
+                                  twfqn+rmk kr 
+  gi|213626556|gb|AAI69626.1| 220 TWFQNRRMKYKRE 232
+                                  9**********95 PP
+
+>> gi|37590431|gb|AAH59757.1|  homeobox B9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   2.2    0.0042       5.2       2      17 ..     229     244 ..     228     247 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0042
+                  nanogs.aln   2 wfqnqrmkskrwqknn 17 
+                                 wfqn+rmk k+ +k++
+  gi|37590431|gb|AAH59757.1| 229 WFQNRRMKMKKLNKDQ 244
+                                 ************9987 PP
+
+>> gi|45360913|ref|NP_988879.1|  homeobox protein Hox-B9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   2.2    0.0042       5.2       2      17 ..     229     244 ..     228     247 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0042
+                    nanogs.aln   2 wfqnqrmkskrwqknn 17 
+                                   wfqn+rmk k+ +k++
+  gi|45360913|ref|NP_988879.1| 229 WFQNRRMKMKKLNKDQ 244
+                                   ************9987 PP
+
+>> gi|89269520|emb|CAJ82382.1|  homeo box B9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   2.2    0.0042       5.2       2      17 ..     229     244 ..     228     247 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0042
+                   nanogs.aln   2 wfqnqrmkskrwqknn 17 
+                                  wfqn+rmk k+ +k++
+  gi|89269520|emb|CAJ82382.1| 229 WFQNRRMKMKKLNKDQ 244
+                                  ************9987 PP
+
+>> gi|512822447|ref|XP_004911990.1|  PREDICTED: homeobox protein Hox-C9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.4   2.6    0.0039       4.8       2      20 ..     248     266 ..     247     269 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 9.4 bits;  conditional E-value: 0.0039
+                        nanogs.aln   2 wfqnqrmkskrwqknnwpk 20 
+                                       wfqn+rmk k+ +k++  k
+  gi|512822447|ref|XP_004911990.1| 248 WFQNRRMKMKKMNKEKPDK 266
+                                       *************998665 PP
+
+>> gi|115530757|emb|CAL49357.1|  Vent-like homeobox 2 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.7       1.1   1.3e+03      74      94 ..      43      62 ..       8      89 .. 0.72
+   2 ?    9.3   0.1    0.0042       5.1       1      13 [.     235     247 ..     235     257 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.1
+                    nanogs.aln 74 qswsnhswnaqtwctqawnnq 94
+                                  +s s  swn+    + +wn+q
+  gi|115530757|emb|CAL49357.1| 43 PSPSLPSWNS-DVSPSSWNSQ 62
+                                  4555566776.4566677766 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.0042
+                    nanogs.aln   1 twfqnqrmkskrw 13 
+                                   twfqn+rmk kr 
+  gi|115530757|emb|CAL49357.1| 235 TWFQNRRMKYKRE 247
+                                   9**********95 PP
+
+>> gi|512851761|ref|XP_002937178.2|  PREDICTED: homeobox protein Hox-B5-like [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.8       1.1   1.3e+03      74      94 ..      43      62 ..       8      96 .. 0.71
+   2 ?    9.2   0.2    0.0043       5.3       1      13 [.     235     247 ..     235     256 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.1
+                        nanogs.aln 74 qswsnhswnaqtwctqawnnq 94
+                                      +s s  swn+    + +wn+q
+  gi|512851761|ref|XP_002937178.2| 43 PSPSLPSWNS-DVSPSSWNSQ 62
+                                      4455556666.4456666666 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                        nanogs.aln   1 twfqnqrmkskrw 13 
+                                       twfqn+rmk kr 
+  gi|512851761|ref|XP_002937178.2| 235 TWFQNRRMKYKRE 247
+                                       9**********95 PP
+
+>> gi|28200477|gb|AAO31757.1|  vent-2 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.7       1.1   1.3e+03      74      94 ..      43      62 ..       8      89 .. 0.72
+   2 ?    9.2   0.2    0.0043       5.3       1      13 [.     235     247 ..     235     256 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.1
+                  nanogs.aln 74 qswsnhswnaqtwctqawnnq 94
+                                +s s  swn+    + +wn+q
+  gi|28200477|gb|AAO31757.1| 43 PSPSLPSWNS-DVSPSSWNSQ 62
+                                4555566776.4566677766 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                  nanogs.aln   1 twfqnqrmkskrw 13 
+                                 twfqn+rmk kr 
+  gi|28200477|gb|AAO31757.1| 235 TWFQNRRMKYKRE 247
+                                 9**********95 PP
+
+>> gi|45360943|ref|NP_988862.1|  VENT homeobox 2, gene 1 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.7       1.1   1.3e+03      74      94 ..      43      62 ..       8      89 .. 0.72
+   2 ?    9.2   0.2    0.0043       5.3       1      13 [.     235     247 ..     235     256 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.1
+                    nanogs.aln 74 qswsnhswnaqtwctqawnnq 94
+                                  +s s  swn+    + +wn+q
+  gi|45360943|ref|NP_988862.1| 43 PSPSLPSWNS-DVSPSSWNSQ 62
+                                  4555566776.4566677766 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                    nanogs.aln   1 twfqnqrmkskrw 13 
+                                   twfqn+rmk kr 
+  gi|45360943|ref|NP_988862.1| 235 TWFQNRRMKYKRE 247
+                                   9**********95 PP
+
+>> gi|89271284|emb|CAJ82860.1|  Vent-like homeobox 2 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.7       1.1   1.3e+03      74      94 ..      43      62 ..       8      89 .. 0.72
+   2 ?    9.2   0.2    0.0043       5.3       1      13 [.     235     247 ..     235     256 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 1.1
+                   nanogs.aln 74 qswsnhswnaqtwctqawnnq 94
+                                 +s s  swn+    + +wn+q
+  gi|89271284|emb|CAJ82860.1| 43 PSPSLPSWNS-DVSPSSWNSQ 62
+                                 4555566776.4566677766 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0043
+                   nanogs.aln   1 twfqnqrmkskrw 13 
+                                  twfqn+rmk kr 
+  gi|89271284|emb|CAJ82860.1| 235 TWFQNRRMKYKRE 247
+                                  9**********95 PP
+
+>> gi|51704169|gb|AAH81317.1|  iroquois homeobox 2 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.0     0.017        21      40      66 ..       2      28 ..       1      59 [. 0.84
+   2 ?    2.9   0.5      0.38   4.7e+02       1      20 [.     159     178 ..     159     188 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.017
+                  nanogs.aln 40 sykqGylvnasGnlplwssqtwnnptw 66
+                                sy qGyl  ++G+l+l+s  ++  ++ 
+  gi|51704169|gb|AAH81317.1|  2 SYPQGYLYQPPGSLALYSCPAYGASAL 28
+                                9*****************988877665 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.38
+                  nanogs.aln   1 twfqnqrmkskrwqknnwpk 20 
+                                 twf n r + k+ +k  w  
+  gi|51704169|gb|AAH81317.1| 159 TWFANARRRLKKENKMTWAP 178
+                                 9*****************64 PP
+
+>> gi|56118566|ref|NP_001008113.1|  iroquois-class homeodomain protein irx-2 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.0     0.017        21      40      66 ..       2      28 ..       1      59 [. 0.84
+   2 ?    2.9   0.5      0.38   4.7e+02       1      20 [.     159     178 ..     159     188 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.017
+                       nanogs.aln 40 sykqGylvnasGnlplwssqtwnnptw 66
+                                     sy qGyl  ++G+l+l+s  ++  ++ 
+  gi|56118566|ref|NP_001008113.1|  2 SYPQGYLYQPPGSLALYSCPAYGASAL 28
+                                     9*****************988877665 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.38
+                       nanogs.aln   1 twfqnqrmkskrwqknnwpk 20 
+                                      twf n r + k+ +k  w  
+  gi|56118566|ref|NP_001008113.1| 159 TWFANARRRLKKENKMTWAP 178
+                                      9*****************64 PP
+
+>> gi|82181198|sp|Q66IK1.1|IRX2_XENTR  RecName: Full=Iroquois-class homeodomain protein irx-2; AltName: Full=Iroquois ho
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.3   0.0     0.017        21      40      66 ..       2      28 ..       1      59 [. 0.84
+   2 ?    2.9   0.5      0.38   4.7e+02       1      20 [.     159     178 ..     159     188 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.3 bits;  conditional E-value: 0.017
+                          nanogs.aln 40 sykqGylvnasGnlplwssqtwnnptw 66
+                                        sy qGyl  ++G+l+l+s  ++  ++ 
+  gi|82181198|sp|Q66IK1.1|IRX2_XENTR  2 SYPQGYLYQPPGSLALYSCPAYGASAL 28
+                                        9*****************988877665 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.38
+                          nanogs.aln   1 twfqnqrmkskrwqknnwpk 20 
+                                         twf n r + k+ +k  w  
+  gi|82181198|sp|Q66IK1.1|IRX2_XENTR 159 TWFANARRRLKKENKMTWAP 178
+                                         9*****************64 PP
+
+>> gi|122936364|gb|AAI30087.1|  LOC100037070 protein [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.1       3.8   4.7e+03      93     123 ..      61      94 ..      36      98 .. 0.74
+   2 ?    9.2   1.4    0.0044       5.4       2      17 ..     242     257 ..     241     261 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -0.4 bits;  conditional E-value: 3.8
+                   nanogs.aln  93 nqawna...plhnfgeeslqpavqlqqnssasdl 123
+                                  + +wn    +  n       p+v+ q  +sasd 
+  gi|122936364|gb|AAI30087.1|  61 SSPWNPvhpQTANNVSSVYHPYVHHQASMSASDC 94 
+                                  5567754435667777788899999999999985 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0044
+                   nanogs.aln   2 wfqnqrmkskrwqknn 17 
+                                  wfqn+rmk k+ +k++
+  gi|122936364|gb|AAI30087.1| 242 WFQNRRMKMKKINKDR 257
+                                  ***********99975 PP
+
+>> gi|148234522|ref|NP_001091264.1|  homeobox A9 [Xenopus laevis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.1       3.8   4.7e+03      93     123 ..      61      94 ..      36      98 .. 0.74
+   2 ?    9.2   1.4    0.0044       5.4       2      17 ..     242     257 ..     241     261 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -0.4 bits;  conditional E-value: 3.8
+                        nanogs.aln  93 nqawna...plhnfgeeslqpavqlqqnssasdl 123
+                                       + +wn    +  n       p+v+ q  +sasd 
+  gi|148234522|ref|NP_001091264.1|  61 SSPWNPvhpQTANNVSSVYHPYVHHQASMSASDC 94 
+                                       5567754435667777788899999999999985 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0044
+                        nanogs.aln   2 wfqnqrmkskrwqknn 17 
+                                       wfqn+rmk k+ +k++
+  gi|148234522|ref|NP_001091264.1| 242 WFQNRRMKMKKINKDR 257
+                                       ***********99975 PP
+
+>> gi|512848555|ref|XP_004915453.1|  PREDICTED: homeobox protein Hox-A9 [Xenopus tropicalis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.0       6.3   7.8e+03      93     122 ..      61      93 ..      39      97 .. 0.72
+   2 ?    9.2   1.4    0.0044       5.4       2      17 ..     242     257 ..     241     261 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 6.3
+                        nanogs.aln  93 nqawna...plhnfgeeslqpavqlqqnssasd 122
+                                       + +wn    +  n       p+++ q+  sasd
+  gi|512848555|ref|XP_004915453.1|  61 SSPWNPvhpQTANNVSSVYHPYMHHQPPISASD 93 
+                                       456665443556777778889999999888887 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.0044
+                        nanogs.aln   2 wfqnqrmkskrwqknn 17 
+                                       wfqn+rmk k+ +k++
+  gi|512848555|ref|XP_004915453.1| 242 WFQNRRMKMKKINKDR 257
+                                       ***********99975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (165 nodes)
+Target sequences:                     105043  (51466771 residues searched)
+Passed MSV filter:                      5737  (0.0546157); expected 2100.9 (0.02)
+Passed bias filter:                     3568  (0.033967); expected 2100.9 (0.02)
+Passed Vit filter:                       846  (0.00805384); expected 105.0 (0.001)
+Passed Fwd filter:                        87  (0.000828232); expected 1.1 (1e-05)
+Initial search space (Z):             105043  [actual number of targets]
+Domain search space  (domZ):              85  [number of targets reported over threshold]
+# CPU time: 3.04u 0.17s 00:00:03.21 Elapsed: 00:00:01.15
+# Mc/sec: 7326.29
+//
+[ok]

@@ -1,0 +1,261 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b1 (May 2013); http://hmmer.org/
+# Copyright (C) 2013 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  globins.hmm
+# target sequence database:        artemia_salina.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       globns.aln  [M=147]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+   1.6e-127  414.4   4.7    1.5e-19   64.2   0.0    9.1  9  gi|4020136|gb|AAC96002.1|  hemoglobin T1 polymer precursor [A
+   4.4e-120  390.3   1.8    7.3e-17   55.5   0.0    9.1  9  gi|4020134|gb|AAC96001.1|  hemoglobin C1 polymer precursor [A
+
+
+Domain annotation for each sequence (and alignments):
+>> gi|4020136|gb|AAC96002.1|  hemoglobin T1 polymer precursor [Artemia salina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   0.0   5.8e-14   5.5e-12       5     118 ..      26     139 ..      23     165 .. 0.83
+   2 !   55.7   0.1   6.4e-19   6.1e-17       2     142 ..     176     314 ..     175     318 .. 0.90
+   3 !   46.9   0.0   3.3e-16   3.2e-14       2     143 ..     330     472 ..     329     476 .. 0.88
+   4 !   41.9   0.0   1.2e-14   1.1e-12       1     143 [.     486     629 ..     486     633 .. 0.87
+   5 !   25.7   0.0   1.1e-09   1.1e-07       7      95 ..     651     741 ..     645     770 .. 0.85
+   6 !   41.1   0.1   2.1e-14     2e-12       2     143 ..     798     940 ..     797     942 .. 0.89
+   7 !   64.2   0.0   1.5e-21   1.5e-19       2     144 ..     955    1098 ..     954    1105 .. 0.89
+   8 !   46.8   0.0   3.5e-16   3.3e-14       2     138 ..    1112    1251 ..    1111    1258 .. 0.90
+   9 !   44.1   0.0   2.4e-15   2.2e-13       2     144 ..    1271    1413 ..    1270    1416 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 5.8e-14
+                 globns.aln   5 eekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkklddlk...ga 85 
+                                ++k+++k  w  v+ d+ ++G ++   ++   Pe k+ F +F ++  ++++++s+++  hg +vl++++ea+  +d      ++
+  gi|4020136|gb|AAC96002.1|  26 SDKATIKRTWATVT-DLPSFGRNVFLSVFAAKPEYKNLFVEFRNI-PASELASSERLLYHGGRVLSSIDEAIAGIDTPDravKT 107
+                                69***********9.****************************99.55***********************9999876511156 PP
+
+                 globns.aln  86 lakLselHatklkvdpenfkllsevlvvvLaak 118
+                                l +L e H+++  v  + f+ +s +++  L+++
+  gi|4020136|gb|AAC96002.1| 108 LLALGERHISRGTVR-RHFEAFSYAFIDELKQR 139
+                                667899999999996.56899998888888765 PP
+
+  == domain 2  score: 55.7 bits;  conditional E-value: 6.4e-19
+                 globns.aln   2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkklddlk.. 83 
+                                ls  + +++++ w+kv++d++ +G+ + +r++  +Pe ++ F +F d+   d++ +s++  ah  +v++a++ ++++ld+ +  
+  gi|4020136|gb|AAC96002.1| 176 LSCVDVANIQESWSKVSGDLKTTGSVVFQRMINGHPEYQQLFRQFRDVDL-DKLGESNSFVAHVFRVVAAFDGIIHELDNNQfi 258
+                                788999****************************************9965.****************************96533 PP
+
+                 globns.aln  84 .galakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanal 142
+                                 ++l+kL e H+ +   d+  f+ +   l+  L++   + ++ + +a+++k++ ++ + +
+  gi|4020136|gb|AAC96002.1| 259 vSTLKKLGEQHIAR-GTDISHFQNFRVTLLEYLKE---NGMNGAQKASWNKAFDAFEKYI 314
+                                38999******987.5799***9999999888886...5788999999999999988766 PP
+
+  == domain 3  score: 46.9 bits;  conditional E-value: 3.3e-16
+                 globns.aln   2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkld...dl 82 
+                                ls  ek+++ + wgkv ++++evG+ +  +l++ +Pe ++ F  F +    + + +s+k  ah ++v++al++++  l+   d 
+  gi|4020136|gb|AAC96002.1| 330 LSGLEKNAILSTWGKVRGNLQEVGKATFGKLFTAHPEYQQMFR-FSQGMPLASLVESPKFAAHTQRVVSALDQTLLALNrpsDF 412
+                                8999**************************************6.7778899*********************977666511166 PP
+
+                 globns.aln  83 kgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanala 143
+                                   +++L   H+++   d   f+    v++  L+++++  +   +  +++ +++++ + l+
+  gi|4020136|gb|AAC96002.1| 413 VYMIKELGLDHINR-GTDRSHFENYQVVFIEYLKETLGDSLDEFTVKSFNHVFEVIISFLN 472
+                                66788899899876.57**********************9999999999999999887776 PP
+
+  == domain 4  score: 41.9 bits;  conditional E-value: 1.2e-14
+                 globns.aln   1 vlsaeekklvkavwgkveadveevGaeaLerllvvyPetkryF..dkFddlssedaikgsakvkahgkkvltalgeavkklddl 82 
+                                +l+  +k+++ka w+k  +d+ ++G+e   r+++ +Pe ++ F  + F d+     +++ ++   h + vl  +++ +++ld+ 
+  gi|4020136|gb|AAC96002.1| 486 HLTGRQKEMIKASWSKARTDLRSLGQELFMRMFKAHPEYQTLFvnKGFADV-PLVSLREDERFISHMANVLGGFDTLLQNLDES 568
+                                7999***************************************44459988.5699***************************9 PP
+
+                 globns.aln  83 kg...alakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanala 143
+                                +     l++L + H+++ k   + f+ +  +l+  L++  +  + ++   a++k++ +   ++a
+  gi|4020136|gb|AAC96002.1| 569 SYfiySLRNLGDAHIQR-KAGTQHFRSFEAILIPYLQESQG--LDAASVEAWKKFFDVSIGVIA 629
+                                86222678889999986.7899**************99765..667888999999987666665 PP
+
+  == domain 5  score: 25.7 bits;  conditional E-value: 1.1e-09
+                 globns.aln   7 kklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkklddlkga...la 87 
+                                  ++ +++  v+    e+G+ + ++l+  +Pe k+ F+kF++  s +++ +++  + h + v++ ++++ k +dd  +    l+
+  gi|4020136|gb|AAC96002.1| 651 IVALRQAFAAVTPRNVEIGKRVFAKLFAAHPEYKNLFKKFEQY-SVEELPSTDAFHYHISLVMNRFSSIGKVIDDNVSFvylLK 733
+                                5567789999*******************************77.55*********************99999998665422278 PP
+
+                 globns.aln  88 kLselHat 95 
+                                kL   H++
+  gi|4020136|gb|AAC96002.1| 734 KLGREHIK 741
+                                88888875 PP
+
+  == domain 6  score: 41.1 bits;  conditional E-value: 2.1e-14
+                 globns.aln   2 lsaeekklvkavwgkvead.veevGaeaLerllvvyPetkryFd.kFddlssedaikgsakvkahgkkvltalgeavkklddlk 83 
+                                l+a ek+ ++++w+ + +  ++++  ++ +rl+  +Pe k  F  +F+++ +   i+++a  kah ++vl+a++ +++ ldd +
+  gi|4020136|gb|AAC96002.1| 798 LTALEKQSIQDIWSNLRSTgLQDLAVKIFTRLFSAHPEYKLLFTgRFGNVDN---INENAPFKAHLHRVLSAFDIVISTLDDSE 878
+                                8999************8653899******************99757997755...***************************99 PP
+
+                 globns.aln  84 galakLsel..HatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanala 143
+                                + +++L +l    t+l +    f  ++++++ v +   p+++t   + +l+k ++l+  +++
+  gi|4020136|gb|AAC96002.1| 879 HLIRQLKDLglFHTRLGMTRSHFDNFATAFLSVAQDIAPNQLTVLGRESLNKGFKLMHGVIE 940
+                                9998888862245678888999****************************999998887776 PP
+
+  == domain 7  score: 64.2 bits;  conditional E-value: 1.5e-21
+                 globns.aln    2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkld... 80  
+                                 lsa e + vk+ w+ v+ d+  vG  + + l++ +P  +  F+kF d+   d++++++ v +h+  v t l+e ++ ld   
+  gi|4020136|gb|AAC96002.1|  955 LSAREVAVVKQTWNLVKPDLMGVGMRIFKSLFEAFPAYQAVFPKFSDV-PLDKLEDTPAVGKHAISVTTKLDELIQTLDepa 1035
+                                 89********************************************99.66***************************9333 PP
+
+                 globns.aln   81 dlkgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanalaa 144 
+                                 +l+   ++L e H+  l+v+   fk +++vlv  L++ +++ f++ +  +++k+  ++ + +++
+  gi|4020136|gb|AAC96002.1| 1036 NLALLARQLGEDHI-VLRVNKPMFKSFGKVLVRLLENDLGQRFSSFASRSWHKAYDVIVEYIEE 1098
+                                 34445678999998.59****************************9999999988887766654 PP
+
+  == domain 8  score: 46.8 bits;  conditional E-value: 3.5e-16
+                 globns.aln    2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdk..Fddlssedaikgsakvkahgkkvltalgeavkkldd 81  
+                                 ++++ek+lv++ w+ ++ d+  +G ++ +++++++P  +  F +  F+d    +++ +++    h  kv++a++++++ l++
+  gi|4020136|gb|AAC96002.1| 1112 ITDAEKALVQESWDLLKPDLLGLGRKIFTKVFTKHPDYQILFTRtgFGDT-PLTKLDDNPAFGTHIIKVMRAFDHVIQILGK 1192
+                                 689***************************************86559976.679************************9999 PP
+
+                 globns.aln   82 lkgalakLselHatkl..kvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalv 138 
+                                  k+ +a L +  a++   +v+ + f+ +s++l+ v+++++++++ p++ aa+ k l  +
+  gi|4020136|gb|AAC96002.1| 1193 PKTLMAYLRSVGADHIarNVERRHFQAFSNALIPVMQHELKAQLRPDAVAAWRKGLDRI 1251
+                                 9988888887777765227999********************************88766 PP
+
+  == domain 9  score: 44.1 bits;  conditional E-value: 2.4e-15
+                 globns.aln    2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkldd.. 81  
+                                 +sa + ++v+  w   + d+   Ga + ++l++ +   +  F++  +  + + ++gs+++  h++ v+++l++ v +l++  
+  gi|4020136|gb|AAC96002.1| 1271 FSAYDIQAVQRTWALAKPDLMGKGAMVFKQLFTDHGY-QPLFSNLAQY-EITGLEGSPELNTHARNVMAQLDTLVGSLQNsi 1350
+                                 68999****************************9964.7788888855.55899******************9999998733 PP
+
+                 globns.aln   82 .lkgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanalaa 144 
+                                  l + la+L + H+   kv+ + fk ++e ++  ++a ++ eftp +++a++k++ ++ + +++
+  gi|4020136|gb|AAC96002.1| 1351 eLGQSLAQLGKDHVP-RKVNRVHFKDFAEHFIPLMKADLGDEFTPLAESAWKKAFDVMIATIEQ 1413
+                                 356788888888876.49*************************************999888765 PP
+
+>> gi|4020134|gb|AAC96001.1|  hemoglobin C1 polymer precursor [Artemia salina]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   0.0   5.2e-15   4.9e-13       5     118 ..      26     139 ..      23     166 .. 0.84
+   2 !   50.3   0.0   2.9e-17   2.7e-15       2     142 ..     176     314 ..     175     318 .. 0.91
+   3 !   53.6   0.0     3e-18   2.8e-16       2     144 ..     330     473 ..     329     476 .. 0.89
+   4 !   30.6   0.0   3.5e-11   3.3e-09       1     120 [.     486     608 ..     486     630 .. 0.87
+   5 !   23.3   0.0   6.5e-09   6.1e-07       6      95 ..     650     741 ..     645     764 .. 0.85
+   6 !   32.8   0.0   7.2e-12   6.8e-10       2     144 ..     798     941 ..     797     943 .. 0.88
+   7 !   55.5   0.0   7.7e-19   7.3e-17       2     143 ..     955    1097 ..     954    1105 .. 0.84
+   8 !   47.3   0.0   2.5e-16   2.4e-14       2     142 ..    1112    1255 ..    1111    1258 .. 0.92
+   9 !   42.7   0.0   6.4e-15     6e-13       2     144 ..    1271    1413 ..    1270    1416 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 5.2e-15
+                 globns.aln   5 eekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkldd...lkga 85 
+                                ++k+++k  w+ v+ d+ ++G ++   ++   Pe k+ F +F ++  ++++++s+++  hg +vl++++e+++++d+    +++
+  gi|4020134|gb|AAC96001.1|  26 SDKATIKRTWSIVN-DLPSFGRNVFLSVFAAKPEYKNLFVEFRNI-PASELANSERLLYHGGRVLASIDEVISEIDSpdsAAKK 107
+                                69************.****************************99.55************************999861115667 PP
+
+                 globns.aln  86 lakLselHatklkvdpenfkllsevlvvvLaak 118
+                                l +L e H+t+  v  + f+ +s +++  L+++
+  gi|4020134|gb|AAC96001.1| 108 LVALGERHITRGTVR-RHFEAFSYAFIDELKQR 139
+                                7788999***99996.56999999999888775 PP
+
+  == domain 2  score: 50.3 bits;  conditional E-value: 2.9e-17
+                 globns.aln   2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkldd...l 82 
+                                ls  + ++v++ w  v+a+++++G+   +rl+  +Pe ++ F +F d++  +++ +s+   ah  +v++a++ ++k+ld+   +
+  gi|4020134|gb|AAC96001.1| 176 LSCVDVANVQESWATVSANLKNTGSILFQRLINDHPEYQQLFRQFRDVEL-AKLGESNGFVAHVFRVVAAFDGIIKELDNnpfI 258
+                                788999****************************************9965.99***************************5555 PP
+
+                 globns.aln  83 kgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanal 142
+                                 ++l++L e H+ +   d+  f+ + + l+v L+++    ++ + +a+++k++ ++ + +
+  gi|4020134|gb|AAC96001.1| 259 VSTLKRLGEQHIAR-GTDISHFQNFRTTLLVYLNEN---GMNQAQEASWNKAFDAIEKYI 314
+                                68999******987.57****************975...678888999999999988765 PP
+
+  == domain 3  score: 53.6 bits;  conditional E-value: 3e-18
+                 globns.aln   2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkld...dl 82 
+                                ls  ek+++ + wgkv ++++evG+ +  +l+  +Pe ++ F  F+ + + +++ +s+k  ah ++v++al++++  l+   d 
+  gi|4020134|gb|AAC96001.1| 330 LSGLEKNAILNTWGKVRGNLQEVGKATFGKLFAAHPEYQQMFRFFQGV-QLAELVDSPKFAAHTQRVVSALDQTLLALNrpsDF 412
+                                8999******************************************88.55*********************977666511166 PP
+
+                 globns.aln  83 kgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanalaa 144
+                                   +++L   H+++   d   f+    v+v  L+++++      +  +++ +++++ n l++
+  gi|4020134|gb|AAC96001.1| 413 VYMIKELGLDHINR-GTDRSHFENYQVVFVEYLKETLGDSVDEFTVKSFNHVFEVIINFLNE 473
+                                66788899899876.57*********************999999999999999999888765 PP
+
+  == domain 4  score: 30.6 bits;  conditional E-value: 3.5e-11
+                 globns.aln   1 vlsaeekklvkavwgkveadveevGaeaLerllvvyPetkryF..dkFddlssedaikgsakvkahgkkvltalgeavkklddl 82 
+                                +l+  +k+++ka w+   +d+  +G+e   r++  +Pe ++ F  + F d+     +++ ++   h + vl+ +++ +++ldd 
+  gi|4020134|gb|AAC96001.1| 486 HLTGRQKEAIKASWSVARTDLRFLGQELFMRMFNLNPEYQSLFvnKGFADV-PLVSLREDERFISHMANVLRGFDTLLQNLDDT 568
+                                7999***************************************44459988.5699***************************9 PP
+
+                 globns.aln  83 kg...alakLselHatklkvdpenfkllsevlvvvLaakfp 120
+                                +    al++L + H+++ k   e f+ +  +l+  L++  +
+  gi|4020134|gb|AAC96001.1| 569 SYfvyALRNLGDAHIQR-KAGTEHFRSFEAILIPYLQESQG 608
+                                86222678889999986.78999999999999999988655 PP
+
+  == domain 5  score: 23.3 bits;  conditional E-value: 6.5e-09
+                 globns.aln   6 ekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkklddlkg...al 86 
+                                e  ++ +++  ++    e+G+ + ++l++++Pe k+ F+kF++  s +++ +++    h + v++ ++ + k +dd  +    l
+  gi|4020134|gb|AAC96001.1| 650 EVVALRQAFAAISPRNVEIGKRVFAKLFTSHPEYKNLFKKFEQY-SVEELPSTDAFDYHISLVMNRFSAVGKVIDDNVSfvyLL 732
+                                555677899999999***************************77.55*****************99998888888765411157 PP
+
+                 globns.aln  87 akLselHat 95 
+                                +kL   H++
+  gi|4020134|gb|AAC96001.1| 733 KKLGREHIK 741
+                                788888875 PP
+
+  == domain 6  score: 32.8 bits;  conditional E-value: 7.2e-12
+                 globns.aln   2 lsaeekklvkavwgkvea.dveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkklddlkg 84 
+                                l+a ek+ ++++w+ +    +ee+  ++ +rl+  +Pe k  F   + l + d+i+++a  +ah ++vl+a++ ++++ld+ + 
+  gi|4020134|gb|AAC96001.1| 798 LTALEKQSIQDIWTSLRPtGLEELAVKMFTRLFADHPEYKLLFT--GRLGNVDNINENAPFRAHLHRVLSAFDIVITSLDNNAL 879
+                                8999************852599*********************8..56788899***************************988 PP
+
+                 globns.aln  85 alakLsel..HatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanalaa 144
+                                 +++L +l    t+l +    f  +++++  v +   p+ +t+  + +l k ++l+ +++++
+  gi|4020134|gb|AAC96001.1| 880 LIRQLKDLglFHTRLGMTRAHFDNFATAFFSVAEDIVPNLLTALGRESLGKGFKLMVAVIEE 941
+                                777777752234678888899*********************99999999999999888865 PP
+
+  == domain 7  score: 55.5 bits;  conditional E-value: 7.7e-19
+                 globns.aln    2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkldd.. 81  
+                                 ls  e + vk+ w+ v+ d+  vG  + + l++++P  +  F+kF d+   d++++ + v +h+  v t l+e ++ ld+  
+  gi|4020134|gb|AAC96001.1|  955 LSVREVEVVKQTWNLVKPDLMGVGMRIFKSLFEKFPAYQAVFPKFSDV-PLDKLEDIPAVGKHAISVTTKLDELIQTLDEpa 1035
+                                 788999****************************************99.66***************************9711 PP
+
+                 globns.aln   82 .lkgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanala 143 
+                                  l+   ++L e H+  l v+   fk ++evlv  L++ +++ f+  +  +++++  ++ + ++
+  gi|4020134|gb|AAC96001.1| 1036 nLALLARQLGEDHIV-LGVNKPMFKSFGEVLVRLLENDLGQRFSNFASKSWHRAYDVIVEYIE 1097
+                                 144455788888874.8999999*******************998776666666555554443 PP
+
+  == domain 8  score: 47.3 bits;  conditional E-value: 2.5e-16
+                 globns.aln    2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdk..Fddlssedaikgsakvkahgkkvltalgeavkkldd 81  
+                                 ++++ek lv+  w+ ++ d+  +G ++   +++++Pe +  F +  F+d    +++ +++   +h  kv++a++ ++++l++
+  gi|4020134|gb|AAC96001.1| 1112 ITDAEKVLVQRSWELLKPDLLGLGRKIFGVIFTKHPEYQILFTRvgFGDT-PLTQLDNNPAFGEHIIKVMRAFDYVIRNLGK 1192
+                                 689***************************************97558876.679**************************** PP
+
+                 globns.aln   82 lkgalakLselHatkl..kvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanal 142 
+                                  k+ la L +  a++   +v+ + f+ +se+l+ v++++++++++pe+ aa+ k l  +  ++
+  gi|4020134|gb|AAC96001.1| 1193 PKTLLAYLKNVGADHIarNVERRHFQAFSEALIPVMQRELKAQLKPEAVAAWRKGLDRIIGVI 1255
+                                 **999999998888753379999*******************************998876665 PP
+
+  == domain 9  score: 42.7 bits;  conditional E-value: 6.4e-15
+                 globns.aln    2 lsaeekklvkavwgkveadveevGaeaLerllvvyPetkryFdkFddlssedaikgsakvkahgkkvltalgeavkkldd.. 81  
+                                 +sa++ +++++ w   + d+   Ga +  +l++ +   +  F++  +  + + ++gs+++  h++ v+++l++ v +l++  
+  gi|4020134|gb|AAC96001.1| 1271 FSAADIEAIQKTWALAKPDLMGKGASVFRQLFTDHGY-QPLFSNLVEY-EVTGLEGSPELNTHARNVMAQLDTLVGSLQNsi 1350
+                                 799******************************9964.7777777765.5589*******************9999998733 PP
+
+                 globns.aln   82 .lkgalakLselHatklkvdpenfkllsevlvvvLaakfpkeftpevqaaldkllalvanalaa 144 
+                                  l + l++L + H+ + kv+ + f  ++e +v  ++a+++ eftp +++a++k+++++ + +++
+  gi|4020134|gb|AAC96001.1| 1351 eLGKSLNQLGKDHVPR-KVNKVHFDDFAEHFVPLMKANLGDEFTPLAESAWKKAFNVMVATIEQ 1413
+                                 3567888888888865.9**************************************99988875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (147 nodes)
+Target sequences:                          189  (40596 residues searched)
+Passed MSV filter:                         7  (0.037037); expected 3.8 (0.02)
+Passed bias filter:                        7  (0.037037); expected 3.8 (0.02)
+Passed Vit filter:                         2  (0.010582); expected 0.2 (0.001)
+Passed Fwd filter:                         2  (0.010582); expected 0.0 (1e-05)
+Initial search space (Z):                189  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.03u 0.03s 00:00:00.06 Elapsed: 00:00:00.03
+# Mc/sec: 198.92
+//
+[ok]
